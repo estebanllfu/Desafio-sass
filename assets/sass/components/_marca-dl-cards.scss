@@ -1,0 +1,21 @@
+   .marca-card{
+        width: 187px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+    .marca-card__image{
+        height: 40px;
+        border-radius: 50%;
+    }
+
+    .marca-DL{
+        display: flex;
+        align-items: center;
+    }
+    
+    .marca-DL__image{
+        max-height: 40px;
+        border-radius: 50%;
+    }

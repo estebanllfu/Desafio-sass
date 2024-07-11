@@ -1,0 +1,25 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    margin: 10px;
+    padding: 10px;
+
+    
+}
+
+
+    .footer__logo{
+        display: flex;
+        align-items: center;
+    }
+
+    .footer__logo--image{
+        width: 55px;
+        height: 55px;
+        border-radius: 15px;
+    }
+
+    .footer__logo--texto{
+        margin-left: 10px;
+    }

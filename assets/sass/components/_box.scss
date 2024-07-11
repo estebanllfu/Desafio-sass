@@ -1,0 +1,43 @@
+.box{
+    width: 298px;
+    height: 89;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box img{
+    height:74px;
+    width: 85px;
+
+}
+.box h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFF;
+    
+}
+
+.box-html{
+    background-color:#E93E30 ;
+}
+
+.box-js{
+    background-color:#F7E018 ;
+}
+
+.box-css{
+    background-color: #299ED5;
+}
+.box-react{
+    background-color: #292C33;
+}
+.box-vue{
+    background-color: #67C770;
+}
+.box-bootstrap{
+    background-color: #563D7C;
+}

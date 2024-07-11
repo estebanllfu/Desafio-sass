@@ -1,0 +1,50 @@
+.form-registro{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.form-registro__titulo{
+    font-weight: 300;
+}
+
+
+
+input{
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    border: solid 0.5px;
+    border-color: gray;
+    border-radius: 5px;
+}
+
+button{
+    width: 52.5%;
+    padding: 10px;
+    margin: 5px 0;
+    border: solid 0.5px;
+    background-color: #63af2b;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+
+
+.boton-google__contenido{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton-google__image{
+    width:40px;
+    height: fit-content;
+}
+
+.iniciar-sesion{
+    color: black;
+    font-weight: 400;
+}
