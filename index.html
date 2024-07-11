@@ -13,23 +13,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
 
 <!-- NAV -->
         <nav>
-        
-           <div class="nav__logo">
+            <div class="marca-principal">
+            <div class="nav__logo">
+                    <img src="assets/img/logos/adl.png" class="nav__logo--image"  alt="logo desafio latam">    
+                </div>
+                <div class="nav__texto">
+                    <h3 class="nav__texto--marca">Blog FrontEnd</h3>
+                </div>
+            </div>    
 
-                <img src="assets/img/logos/adl.png" class="nav__logo--image"  alt="logo desafio latam">    
-            </div>
 
-            <div class="nav__texto">
-
-                <h3 class="nav__texto--marca">Blog FrontEnd</h3>
-
-            </div>
+            <div class="boton-nav"><a class="boton-nav__text" href="registro.html">Registrate!</a></div>
 
         
         </nav>
@@ -155,7 +157,7 @@
             <!-- row/fila -->
             <div class="populares__row">
                 <!-- card 1 -->
-                <div class="card-y">
+                <div class="card-y" data-url="detalle-post.html">
                     <img src="assets/img/posts/vue-components.png" class="card-y__image" alt="Imagen componentes VUE">
                     <p class="fecha-card fecha">24 Noviembre,2022</p>
                     <h3>Componentes Vue</h3>
@@ -170,7 +172,7 @@
                 </div>
                 
                 <!-- card 2 -->
-                    <div class="card-y">
+                    <div class="card-y"data-url="detalle-post.html">
                         <img src="assets/img/posts/api-js.png" class="card-y__image" alt="Componentes Api">
                         <p class="fecha-card fecha">24 Noviembre,2022</p>
                         <h3>Componentes de API con Javascript</h3>
@@ -187,7 +189,7 @@
             <!-- row/fila2 -->
             <div class="populares__row">
                 <!-- card 3 -->
-                <div class="card-y">
+                <div class="card-y" data-url="detalle-post.html">
                     <img src="assets/img/posts/sass.jpg" class="card-y__image" alt="Imagen logo sass">
                     <p class="fecha-card fecha">24 Noviembre,2022</p>
                     <h3>CSS reutilizable con Sass</h3>
@@ -202,7 +204,7 @@
                 </div>
                 
                 <!-- card 4 -->
-                    <div class="card-y">
+                    <div class="card-y" data-url="detalle-post.html">
                         <img src="assets/img/posts/bootstrap.png" class="card-y__image" alt="Imagen Bootstrap">
                         <p class="fecha-card fecha">24 Noviembre,2022</p>
                         <h3>Componentes Bootstrap</h3>
@@ -268,6 +270,34 @@
     </section>
 
     <hr>
+<!-- sección suscripcion -->
+<section class="suscription">
+
+    <div class="suscription__contenido">
+        <div class="suscripcion__titulo">
+            <h1 class="suscripcion__titulo--text">
+
+                Mantente actualizado sobre el <br>
+                Desarrollo Front End
+
+            </h1>
+
+        </div>
+
+        <div class="suscription__data">
+            <input type="text" placeholder="Tu correo">
+            <div class="suscription__button"><p>Suscribete</p></div>
+        </div>
+
+    </div>
+
+    
+</section>
+
+
+    <hr>
+
+<!-- footer -->
 
     <footer>
         <div class="footer__logo">
@@ -285,5 +315,6 @@
 
     
 
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

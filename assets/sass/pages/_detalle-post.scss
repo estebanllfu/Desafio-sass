@@ -1,0 +1,33 @@
+
+.contenido-post{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.detalle-post__titulo{
+    padding: 20px;
+}
+
+.contenido-post__cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contenido-post__content{
+    background-color: lightblue;
+    border-radius: 10px;
+    width: 80%;
+    padding: 10px;
+}
+    
+.contenido-post__image{
+    display: flex;
+    justify-content: center;
+}
+
+.contenido-post__parrafo p{
+    padding: 30px;
+}
